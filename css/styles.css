@@ -1,0 +1,55 @@
+:root{
+    --color-brend-light: #819B57;
+    --color-brend-dark:#465929;
+    --color-primary-dark:  #31261A;
+    --color-primary-light: #FAF4EA;
+    
+}
+
+/*базові стилі*/
+body{
+    color: var(--color-primary-dark);
+}
+
+ul{list-style-type: none;}
+
+/*link*/
+
+.link{
+color: var(--color-primary-light);
+}
+.link:hover{
+    color: var(--color-brend-light);
+    }
+    
+/*buttun*/
+
+.button{
+color: var(--bakery-landing-1-background, var(--color-primary-light));
+border-radius: 8px;
+border: 2px solid var(--color-brend-light);
+background: var(--color-brend-light);
+cursor: pointer;
+}
+.button:hover{
+    color: var(--color-brend-dark);
+    background-color: transparent;
+}
+
+/*hero section*/
+.hero-title{
+    color: var(--color-primary-light);
+}
+.hero-title .acsent{color: var(--color-brend-light);
+/*hex value назва значення для кольорів*/}
+
+
+/*advantages section*/
+
+.adventeges-list{
+    color: var(--color-primary-light);
+    background-color: var(--color-brend-light);
+}
+.section-title .acsent{
+    color: var(--color-brend-dark);
+}
